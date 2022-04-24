@@ -25,6 +25,6 @@ Route::get('lk',  [App\Http\Controllers\LKController::class, 'index'])->name('lk
 
 Route::get('game',  [App\Http\Controllers\GameController::class, 'index'])->name('game');
 
-// Route::get('create',  [App\Http\Controllers\CreateController::class, 'index'])->name('create');
+Route::get('create',  [App\Http\Controllers\CreateController::class, 'index'])->name('create');
 
 Route::post('game/post',  [App\Http\Controllers\CreateController::class, 'post'])->name('post');
